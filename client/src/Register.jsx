@@ -4,9 +4,13 @@ const Register = () => {
   const [username, setusername] = useState("");
   const [password, setpassword] = useState("");
 
+  function register(){
+    
+  }
+
   return (
     <div className="bg-blue-50 h-screen items-center flex">
-      <form className="w-64 mx-auto mb-12">
+      <form className="w-64 mx-auto mb-12" onSubmit={register}>
         <input
           type="text"
           value={username}
